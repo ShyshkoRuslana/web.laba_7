@@ -23,8 +23,8 @@
     border: 10px solid goldenrod;
     height: 100vh;
     flex-wrap:wrap;
-    /*flex-wrap:wrap-reverse;*/
 }
 .box{
     width: 300px;
+    border: 10px solid mistyrose;
 }
