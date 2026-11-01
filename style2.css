@@ -22,21 +22,14 @@
     display: flex;
     border: 10px solid mistyrose;
     height: 100vh;
-    align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    /*align-content: flex-start;*/
+    /*align-content: flex-end;*/
+    /*align-content: space-between;*/
+    /*align-content: space-around;*/
+
 }
 .box{
-    font-size: 30px;
-}
-.box3{
-    font-size: 150px;
-}
-.box4{
-    font-size: 200px;
-}
-.box5{
-    font-size: 10px;
-}
-.box10{
-    font-size: 77px;
+    width: 33.333%;
 }
