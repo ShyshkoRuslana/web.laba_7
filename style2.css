@@ -20,11 +20,13 @@
 
 .container{
     display: flex;
-    border: 10px solid goldenrod;
-    height: 100vh;
-    flex-wrap:wrap;
-}
-.box{
-    width: 300px;
+    justify-content: flex-start;
+    /*justify-content: flex-end;*/
+    /*justify-content: centre;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
     border: 10px solid mistyrose;
+    flex-direction: column;
+    min-height: 100vh;
+
 }
