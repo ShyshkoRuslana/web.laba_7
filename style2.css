@@ -22,5 +22,5 @@
     display: flex;
     border: 10px solid goldenrod;
     min-height: 100vh;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
