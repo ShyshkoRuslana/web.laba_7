@@ -20,20 +20,13 @@
 
 .container{
     display: flex;
-    border: 10px solid mistyrose;
-    height: 100vh;
-    align-content: flex-start;
 }
 .box{
-    width: 33.333%;
+    flex: 1;
 }
 .box2{
-    padding-bottom: 200px;
+    flex:2;
 }
-.box6{
-    padding-bottom: 0;
-}
-.box9 {
-    padding-bottom: 50px;
-    align-self: stretch;
+.box5{
+    flex:3;
 }
